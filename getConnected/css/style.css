@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("../img/fern_pattern.png"); */
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+@font-face {
+    font-family: "Brushberry1";
+    src: url("fonts/Brushberry1.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Brushberry2";
+    src: url("fonts/Brushberry2.otf") format("opentype");
+  }
+  
+  
+
+header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "trade-gothic-next", sans-serif;
+}
+
+.navBar{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size:400%;
+    width: 100%;
+    height: 20vh;
+    font-family: "Brushberry2";
+    background-color: green;
+    background-image: url("../img/fern_pattern_green.png");
+    background-size: 20%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10%;
+    text-align: center;
+    font-size:50%;
+    font-family: "Brushberry2";
+    width: 100%;
+    /* padding-left: -10%; */
+}
+
+#heroQuote{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    font-size: 250%;
+    font-family: "Brushberry1";
+    margin: 3% 5% 5% 5%;
+    padding: auto;
+    line-height: 150%;
+    /* background-image: url("../img/fern_filter.png");
+    background-size: 20%; */
+}
+
+#heroBlock{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: auto;
+    line-height: 150%;
+    background-image: url("../img/fern_filter.png");
+    background-size: 20%;
+}
+
+.info{
+    text-align: center;
+    font-size: 200%;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    background-image: url("../img/fern_filter.png");
+    background-repeat: repeat-x, repeat-y;
+}
+
+.dayInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    background-image: url("../img/fern_filter.png");
+    background-repeat: repeat-x, repeat-y;
+    margin: 10% 5% 10% 5%;
+
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    object-fit: fill;
+}
+
+.gallery *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+
+#logo *{
+    width:25%;
+
+}
+
+.question{
+    margin: 3% 0% 5% 0%;
+    font-size: 170%;
+    font-family: "Brushberry1";
+}
+
+
+.answer{
+
+    font-size: 100%;
+    font-family: "trade-gothic-next", sans-serif;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    line-height: 150%;
+    letter-spacing: .5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dayAgenda{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 200%;
+}
+
+.detailAgenda{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgb(5, 87, 5);
+    color: white;
+}
+
+
+ul{
+    list-style-type: none
+}
+
+.agenda1{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda2{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda3{
+    margin: 5% 0% 5% 0%;
+}
