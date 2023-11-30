@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     position: relative;
     font-family: "trade-gothic-next", sans-serif;
+        background-image: url("../img/fern_filter.png");
 }
 
 .navBar{
@@ -60,14 +61,12 @@ nav{
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding-left: 10%;
     text-align: center;
     font-size:50%;
     font-family: "Brushberry2";
     width: 100%;
-}
-
-nav *{
-
+    /* padding-left: -10%; */
 }
 
 #heroQuote{
@@ -79,25 +78,38 @@ nav *{
     height: 50vh;
     font-size: 250%;
     font-family: "Brushberry1";
-    margin: 3% 0% 5% 0%;
+    margin: 3% 5% 5% 5%;
     padding: auto;
     line-height: 150%;
+
     /* background-image: url("../img/fern_filter.png");
     background-size: 20%; */
 }
 
 #heroBlock{
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
-    padding: auto;
-    line-height: 150%;
+    /* height: 50vh; */
     background-image: url("../img/fern_filter.png");
     background-size: 20%;
+    /* overflow: hidden; */
+    
 }
+
+#heroBlockText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    /* height: 50vh; */
+    /* overflow: hidden; */
+    margin: 1%;
+}
+
 
 .info{
     text-align: center;
@@ -105,6 +117,20 @@ nav *{
     font-family: "trade-gothic-next", sans-serif, bold;
     background-image: url("../img/fern_filter.png");
     background-repeat: repeat-x, repeat-y;
+}
+
+.dayInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    /* background-image: url("../img/fern_filter.png");
+    background-repeat: repeat-x, repeat-y; */
+    margin: 10% 5% 10% 5%;
+
 }
 
 .gallery{
@@ -130,6 +156,7 @@ nav *{
 
 #logo *{
     width:25%;
+
 }
 
 .question{
@@ -151,4 +178,61 @@ nav *{
     justify-content: center;
     line-height: 150%;
     letter-spacing: .5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dayAgenda{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 350%;
+    font-family: "Brushberry2";
+    color: rgb(5, 87, 5);
+}
+
+.detailAgenda{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgb(5, 87, 5);
+    color: white;
+}
+
+
+ul{
+    list-style-type: none
+}
+
+.agenda1{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda2{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda3{
+    margin: 5% 0% 5% 0%;
+}
+
+.day{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2%; */
+}
+
+.day *{
+    margin: 0%;
+    width: 75%;
+    height: 25vh;
+    justify-content: center;
+    /* object-fit: cover; */
 }
