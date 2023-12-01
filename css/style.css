@@ -33,8 +33,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     font-family: "trade-gothic-next", sans-serif;
+        /* background-image: url("../img/fern_filter.png"); */
+        /* position: absolute; */
+        color: rgb(255, 255, 255);
+        background-color: green;
+    background-image: url("../img/fern_pattern_green.png");
+    /* background-size: 60%; */
 }
 
 .navBar{
@@ -73,30 +79,42 @@ nav{
   justify-content: center;
   align-items: center;
     text-align: center;
-    width: 80%;
+    width: 100%;
     height: 50vh;
     font-size: 250%;
     font-family: "Brushberry1";
-    margin: 3% 0% 5% 0%;
+    margin: 3% 5% 5% 5%;
     padding: auto;
     line-height: 150%;
+
     /* background-image: url("../img/fern_filter.png");
     background-size: 20%; */
 }
 
 #heroBlock{
     display: flex;
-    flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
-    padding: auto;
-    line-height: 150%;
+    /* height: 50vh; */
     background-image: url("../img/fern_filter.png");
     background-size: 20%;
+    /* overflow: hidden; */
+    
 }
+
+#heroBlockText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    /* height: 50vh; */
+    /* overflow: hidden; */
+    margin: 1%;
+}
+
 
 .info{
     text-align: center;
@@ -104,6 +122,20 @@ nav{
     font-family: "trade-gothic-next", sans-serif, bold;
     background-image: url("../img/fern_filter.png");
     background-repeat: repeat-x, repeat-y;
+}
+
+.dayInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    /* background-image: url("../img/fern_filter.png");
+    background-repeat: repeat-x, repeat-y; */
+    margin: 10% 5% 10% 5%;
+
 }
 
 .gallery{
@@ -158,3 +190,223 @@ a{
     color: white;
 }
 
+.dayAgenda{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 350%;
+    font-family: "Brushberry2";
+    color: rgb(5, 87, 5);
+}
+
+.detailAgenda{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgb(5, 87, 5);
+    color: white;
+}
+
+
+ul{
+    list-style-type: none
+}
+
+.agenda1{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda2{
+    margin: 5% 0% 5% 0%;
+}
+
+.agenda3{
+    margin: 5% 0% 5% 0%;
+}
+
+.day{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2%; */
+}
+
+.day *{
+    margin: 0%;
+    width: 75%;
+    height: 25vh;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+
+#homeLogo{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0% 2% 0%;
+    /* position: absolute; */
+}
+
+#homeLogo *{
+    /* align-items: center;
+    justify-content: center; */
+    width:30%;
+    /* position: relative;
+    z-index: 1; */
+}
+
+#homeBanner{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 1vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    font-family: "brushberry1";
+    margin: 0% 0% 6% 0%;
+
+}
+
+/* #homeBanner *{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 1vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1000%;
+    font-family: "brushberry1";
+    margin: 0% 0% 6% 0%;
+
+} */
+
+
+#homeDates{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-family: "brushberry1";
+    margin: 0%; 
+}
+
+/* #homeDates *{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 10%;
+    font-family: "brushberry1";
+    margin: 0%; 
+} */
+
+#homeInfo{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    /* min-height: 1vh; */
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-family: "brushberry1";
+    margin: 0% 0% 0% 0%;
+    /* position: relative;
+    z-index: 1; */
+}
+
+/* #homeInfo *{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    min-height: 1vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-family: "brushberry1";
+    margin: 0% 0% 5% 0%;
+} */
+
+
+#homeInfoBlock{
+    display: flex;
+    flex-direction:column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-family: "brushberry1";
+    margin: 0% 0% 0% 0%;
+    /* position: relative;
+    z-index: 1; */
+}
+
+
+#leftHomeGallery{
+    display:flex;
+    flex-direction: column;
+    width:15%;
+}
+
+#rightHomeGallery{
+    display:flex;
+    flex-direction: column;
+    width:15%;
+    
+
+}
+
+#homeScreen{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+#callToAction{
+    color: rgb(255, 255, 255);
+    text-shadow:
+      0 0 7px #ffffff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    animation: pulsate 2.5s infinite alternate;  
+}
+
+@keyframes pulsate {
+    100% {
+
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    0% {
+
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+    }
+  }

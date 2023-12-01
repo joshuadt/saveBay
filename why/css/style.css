@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("../img/fern_pattern.png"); */
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+@font-face {
+    font-family: "Brushberry1";
+    src: url("fonts/Brushberry1.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Brushberry2";
+    src: url("fonts/Brushberry2.otf") format("opentype");
+  }
+  
+  
+
+header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "trade-gothic-next", sans-serif;
+}
+
+.navBar{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size:400%;
+    width: 100%;
+    height: 20vh;
+    font-family: "Brushberry2";
+    background-color: green;
+    background-image: url("../img/fern_pattern_green.png");
+    background-size: 20%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10%;
+    text-align: center;
+    font-size:50%;
+    font-family: "Brushberry2";
+    width: 100%;
+    /* padding-left: -10%; */
+}
+
+#heroQuote{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 50vh;
+    font-size: 250%;
+    font-family: "Brushberry1";
+    margin: 3% 0% 5% 0%;
+    padding: auto;
+    line-height: 150%;
+    /* background-image: url("../img/fern_filter.png");
+    background-size: 20%; */
+}
+
+#heroBlock{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: auto;
+    line-height: 150%;
+    background-image: url("../img/fern_filter.png");
+    background-size: 20%;
+}
+
+.info{
+    text-align: center;
+    font-size: 200%;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    background-image: url("../img/fern_filter.png");
+    background-repeat: repeat-x, repeat-y;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    object-fit: fill;
+}
+
+.gallery *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+
+#logo{
+}
+
+#logo *{
+    width:25%;
+
+}
+
+.question{
+    margin: 3% 0% 5% 0%;
+    font-size: 170%;
+    font-family: "Brushberry1";
+}
+
+
+.answer{
+
+    font-size: 100%;
+    font-family: "trade-gothic-next", sans-serif;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    line-height: 150%;
+    letter-spacing: .5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes pulsate {
+    100% {
+
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    0% {
+
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+    }
+}
