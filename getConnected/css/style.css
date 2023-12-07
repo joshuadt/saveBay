@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     position: relative;
     font-family: "trade-gothic-next", sans-serif;
+    background-image: url("../img/fern_filter.png");
 }
 
 .navBar{
@@ -60,7 +61,7 @@ nav{
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding-left: 10%;
+    padding-left: 6%;
     text-align: center;
     font-size:50%;
     font-family: "Brushberry2";
@@ -96,6 +97,19 @@ nav{
     background-image: url("../img/fern_filter.png");
     background-size: 20%;
 }
+
+#quoteBlock{
+    width: 80%;
+    height: 15vh;
+    font-size: 200%;
+    font-family: "Brushberry1";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 10% 0% 10%;
+    line-height: 150%;
+}
+
 
 .info{
     text-align: center;
@@ -141,7 +155,7 @@ nav{
 }
 
 #logo *{
-    width:25%;
+    width:20%;
 
 }
 
@@ -202,4 +216,86 @@ ul{
 
 .agenda3{
     margin: 5% 0% 5% 0%;
+}
+
+#rescueBlock{
+    display: flex;
+    flex-direction: column;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    font-size: 150%;
+    width: 40%;
+    height: 75vh;
+    color: white;
+    background-color: green;
+    background-image: url("../../img/animal_prints-01.png");
+    background-size: 100%;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#restorationBlock{
+    display: flex;
+    flex-direction: column;
+    font-family: "trade-gothic-next", sans-serif, bold;
+    font-size: 150%;
+    width: 40%;
+    height: 75vh;
+    color: white;
+    background-color: green;
+    background-image: url("../../img/fern_pattern_green_upside.png");
+    background-size: 100%;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#connectionBlock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+ 
+}
+
+.contactBlock{
+    justify-content: center;
+    align-items: center;
+    
+    /* margin: 5%; */
+}
+
+.titleBlock{
+    display: flex;
+    flex-direction: column;
+    font-size: 300%;
+    line-height: normal;
+    width: 100%;
+    margin: 0% 0% 5% 0%;
+    font-family: "Brushberry1";
+}
+.contactOrg{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0% 3% 0%;
+}
+
+.contactPhone{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 1% 0%;
+    font-family: "trade-gothic-next", sans-serif;
+}
+
+.contactWeb{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 3% 0%;
 }
