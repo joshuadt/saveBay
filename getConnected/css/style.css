@@ -108,6 +108,7 @@ nav{
     text-align: center;
     margin: 2% 10% 0% 10%;
     line-height: 150%;
+    color:rgb(5, 65, 5);
 }
 
 
@@ -226,9 +227,9 @@ ul{
     width: 40%;
     height: 75vh;
     color: white;
-    background-color: green;
+    background-color: rgb(5, 65, 5);
     background-image: url("../../img/animal_prints-01.png");
-    background-size: 100%;
+    background-size: 110%;
     margin: 3%;
     justify-content: center;
     align-items: center;
@@ -243,9 +244,9 @@ ul{
     width: 40%;
     height: 75vh;
     color: white;
-    background-color: green;
+    background-color: rgb(5, 65, 5);
     background-image: url("../../img/fern_pattern_green_upside.png");
-    background-size: 100%;
+    background-size: 110%;
     margin: 3%;
     justify-content: center;
     align-items: center;
@@ -285,6 +286,7 @@ ul{
     display: flex;
     flex-direction: column;
     margin: 3% 0% 3% 0%;
+    font-size: 125%;
 }
 
 .contactPhone{
@@ -298,4 +300,41 @@ ul{
     display: flex;
     flex-direction: column;
     margin: 0% 0% 3% 0%;
+}
+
+#merchBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#merchBlock *{
+    margin: 1%;
+}
+
+#merchDisclaimer{
+    text-align: center;
+    font-size: 150%;
+    color:rgb(5, 65, 5);
+    margin: 2% 0% 0% 0%;
+}
+
+#button{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#ticket{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#toy{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
 }
