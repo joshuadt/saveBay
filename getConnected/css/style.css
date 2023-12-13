@@ -246,7 +246,7 @@ ul{
     color: white;
     background-color: rgb(5, 65, 5);
     background-image: url("../../img/fern_pattern_green_upside.png");
-    background-size: 110%;
+    background-size: cover;
     margin: 3%;
     justify-content: center;
     align-items: center;
@@ -337,4 +337,73 @@ ul{
     width: 25%;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1000px){
+
+    .navBar {
+        font-size: 200%;
+        padding: 0% 10% 0% 10%;
+        background-size: 50%;
+        height: 15vh;
+    }
+    #logo *{
+        width: 30%;
+    }
+    .titleBlock {
+        font-size: 125%;
+    }
+    .contactBlock {
+        font-size: 50%;
+    }
+    #quoteBlock {
+        font-size: 100%;
+        height: 10vh;
+    }
+    #merchDisclaimer {
+        font-size: 100%;
+    }
+    #restorationBlock {
+        height: 50vh;
+        background-size: cover;
+    }
+    #rescueBlock{
+        height: 50vh;
+        background-size: 200%;
+    }
+}
+
+@media (max-width: 500px){
+
+    .navBar {
+        font-size: 200%;
+        background-size: 100%;
+        height: 15vh;
+    }
+    #logo *{
+        width: 35%;
+    }
+    .titleBlock {
+        font-size: 100%;
+    }
+    .contactBlock {
+        font-size: 35%;
+    }
+    #quoteBlock {
+        font-size: 75%;
+        height: 5vh;
+    }
+    #merchDisclaimer {
+        font-size: 75%;
+        margin: 0% 5% 0% 5%;
+    }
+    #restorationBlock {
+        height: 50vh;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+    #rescueBlock{
+        height: 50vh;
+        background-size: 100%;
+    }
 }
